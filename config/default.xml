@@ -1,0 +1,33 @@
+<bot>
+	<module name="admin" />
+	<module name="seen" />
+	<module name="search" />
+	<module name="echo" />
+	<module name="lasturl" />
+	<module name="wikipedia" />
+	<module name="memo" />
+	<module name="log">
+		<logdirectory>log/</logdirectory>
+	</module>
+	<server address="irc.freenode.net" port="6667">
+		<nick>
+			simplebot
+		</nick>
+		<channel name="#thesimplebot">
+			<flag>topicprotect</flag>
+		</channel>
+		<user>
+			<primarynick>restorer</primarynick>
+			<allowednick>restorer_</allowednick>
+			<allowednick>WasabiFlux</allowednick>
+			<hostmask>about/cooking/nakedchef/chili/restorer</hostmask>
+			<accesslevel>10</accesslevel>
+			<flag>swearexempt</flag>
+			<flag>banprotect</flag>
+			<flag>restrictident</flag>
+			<passwdhash>
+				6c3de0fc3a03d1aa892c31cef6605c08c1d7f08fe81c1372212a2910671ef781
+			</passwdhash>
+		</user>
+	</server>
+</bot>
