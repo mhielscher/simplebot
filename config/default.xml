@@ -9,12 +9,12 @@
 	<module name="log">
 		<logdirectory>log/</logdirectory>
 	</module>
+	<module name="gpio_flash" />
 	<server address="irc.freenode.net" port="6667">
 		<nick>
-			simplebot
+			restorer_opi
 		</nick>
-		<channel name="#thesimplebot">
-			<flag>topicprotect</flag>
+		<channel name="#skiffy">
 		</channel>
 		<user>
 			<primarynick>restorer</primarynick>
